@@ -66,7 +66,9 @@ h2{
     
 }
 
+#video{
 
+}
 p{
     color: black;
     text-align: center;
@@ -76,5 +78,68 @@ footer{
     text-align: center;
     padding: 18px;
     background-color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 160px;
+    
 
+}
+#sec2{
+    width: 50%;
+    
+    flex-direction: line;
+    display: flex;
+}
+#textozap{
+    position:relative;
+    top: -2px;
+    left: -20%;
+}
+#infozap{
+    position:relative;
+    top: 7px;
+    left: -20%;
+    font-size: 1.2rem;
+}
+
+#botaozap{
+    position: relative;
+    top:-25px;
+    left: 30%;
+    bottom: 100%;
+    font: Helvetica;
+    font-size: 1.9rem;
+
+    
+    color: white;
+    background-color: rgb(7, 126, 7);
+    
+}
+#zaplogo{
+    position:absolute;
+    top: 1483px;
+    left: 529px;
+}
+#textozap{
+    color: black;
+    position: relative;
+    left: 20px;
+    transition: color 0.5s;
+    border: none;
+    margin: 0%;
+}
+#textozap:hover{
+    color: green;
+    background-color: white;
+}
+#textoapp{
+    color: black;
+    position: relative;
+    left: 0px;
+    transition: color 0.5s;
+    border: none;
+    margin: 0%;
+}
+#textoapp:hover{
+    color: gray;
+    background-color: white;
 }
