@@ -1,41 +1,41 @@
 * {
-    margin:0;
+    margin:0; /* para tirar a margem do site, senão fica uma borda preta*/
 
 }
 body{
-    line-height: 2;
+    line-height: 2; /*espaçamento entre linhas, eu acho*/
     background-color: black;
-    min-height: 185vh;
+    min-height: 185vh; /*altura/espaço dísponível no site*/
     
-    flex-direction: column;
-    display: flex;
+    flex-direction: column; /*orientação da direção para os itens, nesse caso em colunas ao invés de linhas*/
+    display: flex; /*para deixar o display flexível e personalizável*/
 }
 header{
     background-color: white ;
     text-align: center;
     height: 80px;
-    width: 101%;
+    width: 101%; /*101% porque estava faltando um pouco do cabeçalho, do site todo, na verdade, mas só consegui consertar o cabeçalho*/
 }
 
-a{
+a{ 
     color: black;
     text-decoration: none;
     background-color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
+    padding: 10px; /*distância entre a letra e as bordas*/
+    border: none; /*sem borda*/
+    border-radius: 10px; /*arredondamento das bordas*/
+    cursor: pointer; /*para o cursor do mouse virar a "mãozinha"*/
     position: relative;
     left: 35%;
     bottom: 100%;
-    transition: background-color 0.6s;
+    transition: background-color 0.6s; /*transição de uma cor para outra*/
     transition: color 0.6s;
 }
 a:hover{
-    background-color: black;
+    background-color: black; /*cor final*/
     color: white;
 
-}
+} /*nome do item + :hover*/
 
 main{
     
@@ -67,7 +67,14 @@ h2{
 }
 
 #video{
-
+    text-align: center;
+    margin: 80px;
+}
+#video iframe{
+    background-color: black;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 325px;
 }
 p{
     color: black;
@@ -82,12 +89,6 @@ footer{
     height: 160px;
     
 
-}
-#sec2{
-    width: 50%;
-    
-    flex-direction: line;
-    display: flex;
 }
 #textozap{
     position:relative;
@@ -116,7 +117,7 @@ footer{
 }
 #zaplogo{
     position:absolute;
-    top: 1483px;
+    top: 1723px;
     left: 529px;
 }
 #textozap{
